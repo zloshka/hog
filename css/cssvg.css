@@ -312,21 +312,17 @@ h2 {  text-align: center;
   .box5 p{margin: 8px;   }
 }
 
-@media only screen and (max-device-width: 300px) {
+@media only screen and (max-device-width: 700px) {
 
   * {    font-family: 'Times New Roman', Times, serif;  
   }
   
     .wrapper {
         display: grid;
-        /* grid-template-columns: 1fr;  */
-        /* grid-template-rows: 1fr;  */
-        
         justify-self: center;
         color: white;
    
-    }
-  
+    }  
   h2 {  text-align: center;
       margin: 10px 0px 5px 0px;
      }
