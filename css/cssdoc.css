@@ -156,7 +156,7 @@
 
 }
 
-  @media screen and (max-width: 750px), only screen and (max-device-width: 700px) {
+  @media screen and (max-width: 750px), only screen and (max-device-width: 300px) {
       /* CSS-стили */
   
       .wrapper1 {
