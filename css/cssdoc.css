@@ -150,7 +150,7 @@
     .box5 .diviz{text-align: end;  }
   .box5 p{margin: 8px;   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 750px), only screen and (max-device-width: 480px) {
       /* CSS-стили */
   
       .wrapper1 {
