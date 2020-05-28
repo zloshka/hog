@@ -149,6 +149,12 @@
 
     .box5 .diviz{text-align: end;  }
   .box5 p{margin: 8px;   }
+  .centerbox3 {  display: grid;
+  
+    align-content:  center;
+    border-left: 6px solid #4f4948;
+
+}
 
   @media screen and (max-width: 750px), only screen and (max-device-width: 700px) {
       /* CSS-стили */
@@ -163,4 +169,20 @@
           width: 100%;
           
       }
+
+      .box0 {  display: grid;  
+        grid-template-columns:  1fr ;
+        grid-auto-rows: minmax(10px, auto);
+        margin: 6px;
+        background-color: #4f4948;
+        color: #e1d2cf;  
+    }
+
+        
+  .centerbox3 {  display: grid;
+    grid-column: 1/4;
+    align-content:  center;
+    border: 6px solid #4f4948;
+
+}
   }
