@@ -312,7 +312,7 @@ h2 {  text-align: center;
   .box5 p{margin: 8px;   }
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 300px) {
 
   * {    font-family: 'Times New Roman', Times, serif;  
   }
